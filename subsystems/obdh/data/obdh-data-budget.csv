@@ -1,0 +1,69 @@
+subsystem,parameter,n,data_type,bit_size,frequency_hz,data_rate_bps
+EPS,Battery temperature,2,sint16,16,0.1,3.2
+EPS,Battery current,2,sint16,16,1,32
+EPS,Battery voltage,2,sint16,16,1,32
+EPS,Battery SOC,2,sint16,16,0.1,3.2
+EPS,Bus voltage,1,sint16,16,1,16
+EPS,Solar array temperature,4,sint16,16,0.1,6.4
+EPS,Solar array current,2,sint16,16,1,32
+EPS,Load current,1,sint16,16,1,16
+EPS,PCU temperature,1,sint16,16,0.1,1.6
+EPS,Switch status,60,boolean,1,1,60
+ADCS,Star tracker output,4,float32,32,10,1280
+ADCS,CSS output,12,sint16,16,5,960
+ADCS,Estimated Sun vector,3,float32,32,10,960
+ADCS,Estimated quaternion,4,float32,32,10,1280
+ADCS,MIMU temperature,2,sint16,16,0.1,3.2
+ADCS,MIMU output,12,float32,32,10,3840
+ADCS,ADCS mode,1,uint8,8,1,8
+ADCS,RW speed,4,float32,32,5,640
+ADCS,RW momentum,3,float32,32,5,480
+ADCS,RW torque,3,float32,32,5,480
+ADCS,RW angular rate,4,float32,32,5,640
+ADCS,RW temperature,4,sint16,16,0.1,6.4
+ADCS,Thruster firing status,8,boolean,1,1,8
+TCS,Radiator temperature,4,sint16,16,0.1,6.4
+TCS,IUVS detector temperature,1,sint16,16,0.1,1.6
+TCS,IUVS optics temperature,1,sint16,16,0.1,1.6
+TCS,RSDPU temperature,1,sint16,16,0.1,1.6
+TCS,MAG sensor temperature,2,sint16,16,0.1,3.2
+TCS,Tank temperature,1,sint16,16,0.1,1.6
+TCS,Heater status,20,boolean,1,1,20
+TTMTC,BER,1,float32,32,1,32
+TTMTC,TX antenna selection,1,uint8,8,event,0
+TTMTC,Ranging signal delay,1,float32,32,10,320
+TTMTC,RF components temperature,2,sint16,16,0.1,3.2
+TTMTC,RX voltage,1,sint16,16,1,16
+TTMTC,TX status,1,boolean,1,1,1
+TTMTC,RX status,1,boolean,1,1,1
+TTMTC,TWTA temperature,1,sint16,16,0.1,1.6
+TTMTC,Electra status,1,uint8,8,1,8
+PS,Tank pressure,1,sint16,16,1,16
+PS,He pressure,1,sint16,16,1,16
+PS,Tank temperature,1,sint16,16,0.1,1.6
+PS,MR-107S valve status,6,boolean,1,1,6
+PS,MR-106L valve status,6,boolean,1,1,6
+PS,MR-103G valve status,8,boolean,1,1,8
+PS,Catalyst bed heater temperature,6,sint16,16,0.1,9.6
+PS,Propulsion mode,1,uint8,8,1,8
+OBDH,CDH temperature,1,sint16,16,0.1,1.6
+OBDH,CDH voltage,1,sint16,16,0.1,1.6
+OBDH,Boot count,1,uint8,8,0.1,0.8
+OBDH,Boot cause,1,uint8,8,0.1,0.8
+OBDH,Watchdog counter,1,uint16,16,1,16
+OBDH,Stored packet count,1,uint16,16,0.1,1.6
+OBDH,SSR fill level,1,uint16,16,1,16
+OBDH,SSR write rate,1,float32,32,1,32
+OBDH,SSR read rate,1,float32,32,1,32
+OBDH,On-board time,1,float32,32,1,32
+OBDH,Mission phase,1,uint8,8,0.1,0.8
+OBDH,Mission mode,1,uint8,8,0.1,0.8
+PAYLOAD,MAG output,,,,,1536
+PAYLOAD,STATIC output,,,,,2200
+PAYLOAD,NGIMS output,,,,,1000
+PAYLOAD,IUVS output,,,,,3000
+PAYLOAD,SWIA output,,,,,1000
+PAYLOAD,SWEA output,,,,,1000
+PAYLOAD,SEP output,,,,,500
+PAYLOAD,LPW output,,,,,500
+PAYLOAD,EUV output,,,,,100

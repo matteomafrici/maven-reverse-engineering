@@ -1,0 +1,775 @@
+stk.v.13.0
+WrittenBy    STK_v13.1.0
+BEGIN Access
+    Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN1
+    Scenario/MAVEN_AOCS_Validation/Facility/DSS_14_Goldstone
+
+    IsAnonymous		 Yes
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 Yes
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN Constraints
+
+        BaseConstraintsSource		 UseInstConstraints
+        TargetConstraintsSource		 UseInstConstraints
+
+    END Constraints
+
+
+    BEGIN ConsideredIntervals
+
+        2015-02-11T12:00:00.000000000 2015-02-17T12:31:12.898266924
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2015-02-11T15:50:33.461530228 2015-02-12T03:32:16.683274933
+        2015-02-12T15:48:30.603355129 2015-02-13T03:32:01.227917381
+        2015-02-13T15:46:26.601342367 2015-02-14T03:31:45.992949837
+        2015-02-14T15:44:23.420163933 2015-02-15T03:31:31.049488081
+        2015-02-15T15:42:19.569944606 2015-02-16T03:31:15.146798512
+        2015-02-16T15:40:15.542294105 2015-02-17T03:30:59.647947495
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2015-02-11T12:00:00.000000000 2015-02-17T12:31:12.898266924
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2015-02-11T15:50:33.461530228 2015-02-12T03:32:16.683274933
+                        2015-02-12T15:48:30.603355129 2015-02-13T03:32:01.227917381
+                        2015-02-13T15:46:26.601342367 2015-02-14T03:31:45.992949837
+                        2015-02-14T15:44:23.420163933 2015-02-15T03:31:31.049488081
+                        2015-02-15T15:42:19.569944606 2015-02-16T03:31:15.146798512
+                        2015-02-16T15:40:15.542294105 2015-02-17T03:30:59.647947495
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2015-02-11T15:50:33.461530228 2015-02-12T03:32:16.683274933
+                        2015-02-12T15:48:30.603355129 2015-02-13T03:32:01.227917381
+                        2015-02-13T15:46:26.601342367 2015-02-14T03:31:45.992949837
+                        2015-02-14T15:44:23.420163933 2015-02-15T03:31:31.049488081
+                        2015-02-15T15:42:19.569944606 2015-02-16T03:31:15.146798512
+                        2015-02-16T15:40:15.542294105 2015-02-17T03:30:59.647947495
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2015-02-11T15:50:33.461530228 2015-02-12T03:32:16.683274933
+                        2015-02-12T15:48:30.603355129 2015-02-13T03:32:01.227917381
+                        2015-02-13T15:46:26.601342367 2015-02-14T03:31:45.992949837
+                        2015-02-14T15:44:23.420163933 2015-02-15T03:31:31.049488081
+                        2015-02-15T15:42:19.569944606 2015-02-16T03:31:15.146798512
+                        2015-02-16T15:40:15.542294105 2015-02-17T03:30:59.647947495
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+    LineStyle		 0
+    ColorMode		 ObjectColors
+    Color		 65280
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN1
+    Scenario/MAVEN_AOCS_Validation/Facility/DSS_43_Canberra
+
+    IsAnonymous		 Yes
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 Yes
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN Constraints
+
+        BaseConstraintsSource		 UseInstConstraints
+        TargetConstraintsSource		 UseInstConstraints
+
+    END Constraints
+
+
+    BEGIN ConsideredIntervals
+
+        2015-02-11T12:00:00.000000000 2015-02-17T12:31:12.898266924
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2015-02-11T21:51:02.803949743 2015-02-12T09:53:31.004547568
+        2015-02-12T21:50:44.216997852 2015-02-13T09:51:27.974369088
+        2015-02-13T21:50:24.865232615 2015-02-14T09:49:23.911425519
+        2015-02-14T21:50:04.842708354 2015-02-15T09:47:20.234816921
+        2015-02-15T21:49:45.037792690 2015-02-16T09:45:16.326709351
+        2015-02-16T21:49:18.976405263 2015-02-17T09:43:12.014926686
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2015-02-11T12:00:00.000000000 2015-02-17T12:31:12.898266924
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2015-02-11T21:44:52.721317463 2015-02-12T10:09:26.211562588
+                        2015-02-12T21:44:38.271606904 2015-02-13T10:07:23.157184875
+                        2015-02-13T21:44:23.117524494 2015-02-14T10:05:19.115847288
+                        2015-02-14T21:44:07.336672461 2015-02-15T10:03:15.464052370
+                        2015-02-15T21:43:52.086526032 2015-02-16T10:01:11.758034876
+                        2015-02-16T21:43:36.420991859 2015-02-17T09:59:07.300411508
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2015-02-11T21:44:52.721317463 2015-02-12T10:09:26.211562588
+                        2015-02-12T21:44:38.271606904 2015-02-13T10:07:23.157184875
+                        2015-02-13T21:44:23.117524494 2015-02-14T10:05:19.115847288
+                        2015-02-14T21:44:07.336672461 2015-02-15T10:03:15.464052370
+                        2015-02-15T21:43:52.086526032 2015-02-16T10:01:11.758034876
+                        2015-02-16T21:43:36.420991859 2015-02-17T09:59:07.300411508
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2015-02-11T21:44:52.721317463 2015-02-12T10:09:26.211562588
+                        2015-02-12T21:44:38.271606904 2015-02-13T10:07:23.157184875
+                        2015-02-13T21:44:23.117524494 2015-02-14T10:05:19.115847288
+                        2015-02-14T21:44:07.336672461 2015-02-15T10:03:15.464052370
+                        2015-02-15T21:43:52.086526032 2015-02-16T10:01:11.758034876
+                        2015-02-16T21:43:36.420991859 2015-02-17T09:59:07.300411508
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2015-02-11T21:44:52.721317463 2015-02-12T10:09:26.211562588
+                        2015-02-12T21:44:38.271606904 2015-02-13T10:07:23.157184875
+                        2015-02-13T21:44:23.117524494 2015-02-14T10:05:19.115847288
+                        2015-02-14T21:44:07.336672461 2015-02-15T10:03:15.464052370
+                        2015-02-15T21:43:52.086526032 2015-02-16T10:01:11.758034876
+                        2015-02-16T21:43:36.420991859 2015-02-17T09:59:07.300411508
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2015-02-11T21:51:02.803949743 2015-02-12T09:53:31.004547568
+                        2015-02-12T21:50:44.216997852 2015-02-13T09:51:27.974369088
+                        2015-02-13T21:50:24.865232615 2015-02-14T09:49:23.911425519
+                        2015-02-14T21:50:04.842708354 2015-02-15T09:47:20.234816921
+                        2015-02-15T21:49:45.037792690 2015-02-16T09:45:16.326709351
+                        2015-02-16T21:49:18.976405263 2015-02-17T09:43:12.014926686
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+    LineStyle		 0
+    ColorMode		 ObjectColors
+    Color		 65280
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN1
+    Scenario/MAVEN_AOCS_Validation/Facility/DSS_63_Madrid
+
+    IsAnonymous		 Yes
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 Yes
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN Constraints
+
+        BaseConstraintsSource		 UseInstConstraints
+        TargetConstraintsSource		 UseInstConstraints
+
+    END Constraints
+
+
+    BEGIN ConsideredIntervals
+
+        2015-02-11T12:00:00.000000000 2015-02-17T12:31:12.898266924
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2015-02-11T12:00:00.000000000 2015-02-11T19:28:16.126731292
+        2015-02-12T08:51:56.929264468 2015-02-12T19:28:12.916299481
+        2015-02-13T08:49:41.448108253 2015-02-13T19:28:10.196514139
+        2015-02-14T08:47:25.628945879 2015-02-14T19:28:07.238949252
+        2015-02-15T08:45:09.825781390 2015-02-15T19:28:03.844548215
+        2015-02-16T08:42:53.431390273 2015-02-16T19:28:00.025900403
+        2015-02-17T08:40:38.099194984 2015-02-17T12:31:12.898266924
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2015-02-11T12:00:00.000000000 2015-02-17T12:31:12.898266924
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2015-02-11T12:00:00.000000000 2015-02-11T20:00:01.461044942
+                        2015-02-12T08:20:15.460465258 2015-02-12T19:59:56.874529474
+                        2015-02-13T08:18:01.176207761 2015-02-13T19:59:52.348500034
+                        2015-02-14T08:15:46.992115647 2015-02-14T19:59:48.277882645
+                        2015-02-15T08:13:32.306617911 2015-02-15T19:59:43.442694493
+                        2015-02-16T08:11:17.514032213 2015-02-16T19:59:38.483621617
+                        2015-02-17T08:09:02.867291948 2015-02-17T12:31:12.898266924
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2015-02-11T12:00:00.000000000 2015-02-11T20:00:01.461044942
+                        2015-02-12T08:20:15.460465258 2015-02-12T19:59:56.874529474
+                        2015-02-13T08:18:01.176207761 2015-02-13T19:59:52.348500034
+                        2015-02-14T08:15:46.992115647 2015-02-14T19:59:48.277882645
+                        2015-02-15T08:13:32.306617911 2015-02-15T19:59:43.442694493
+                        2015-02-16T08:11:17.514032213 2015-02-16T19:59:38.483621617
+                        2015-02-17T08:09:02.867291948 2015-02-17T12:31:12.898266924
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2015-02-11T12:00:00.000000000 2015-02-11T20:00:01.461044942
+                        2015-02-12T08:20:15.460465258 2015-02-12T19:59:56.874529474
+                        2015-02-13T08:18:01.176207761 2015-02-13T19:59:52.348500034
+                        2015-02-14T08:15:46.992115647 2015-02-14T19:59:48.277882645
+                        2015-02-15T08:13:32.306617911 2015-02-15T19:59:43.442694493
+                        2015-02-16T08:11:17.514032213 2015-02-16T19:59:38.483621617
+                        2015-02-17T08:09:02.867291948 2015-02-17T12:31:12.898266924
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 3
+
+                    BEGIN ConstraintInputTimes
+
+                        2015-02-11T12:00:00.000000000 2015-02-11T20:00:01.461044942
+                        2015-02-12T08:20:15.460465258 2015-02-12T19:59:56.874529474
+                        2015-02-13T08:18:01.176207761 2015-02-13T19:59:52.348500034
+                        2015-02-14T08:15:46.992115647 2015-02-14T19:59:48.277882645
+                        2015-02-15T08:13:32.306617911 2015-02-15T19:59:43.442694493
+                        2015-02-16T08:11:17.514032213 2015-02-16T19:59:38.483621617
+                        2015-02-17T08:09:02.867291948 2015-02-17T12:31:12.898266924
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2015-02-11T12:00:00.000000000 2015-02-11T19:28:16.126731292
+                        2015-02-12T08:51:56.929264468 2015-02-12T19:28:12.916299481
+                        2015-02-13T08:49:41.448108253 2015-02-13T19:28:10.196514139
+                        2015-02-14T08:47:25.628945879 2015-02-14T19:28:07.238949252
+                        2015-02-15T08:45:09.825781390 2015-02-15T19:28:03.844548215
+                        2015-02-16T08:42:53.431390273 2015-02-16T19:28:00.025900403
+                        2015-02-17T08:40:38.099194984 2015-02-17T12:31:12.898266924
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+    LineStyle		 0
+    ColorMode		 ObjectColors
+    Color		 65280
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN1
+    Scenario/MAVEN_AOCS_Validation/Facility/MSL_Curiosity_GaleCrater
+
+    IsAnonymous		 Yes
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Object
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN Constraints
+
+        BaseConstraintsSource		 UseInstConstraints
+        TargetConstraintsSource		 UseInstConstraints
+
+    END Constraints
+
+
+    BEGIN ConsideredIntervals
+
+        2015-02-11T12:00:00.000000000 2015-02-17T12:31:12.898266924
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2015-02-11T21:01:57.876620914 2015-02-11T21:09:46.324777567
+        2015-02-12T07:00:03.361333912 2015-02-12T09:33:54.742438548
+        2015-02-13T05:00:01.910432012 2015-02-13T06:38:49.850832634
+        2015-02-13T08:48:15.756606467 2015-02-13T10:57:30.807413377
+        2015-02-14T08:06:53.412508431 2015-02-14T09:57:28.344548044
+        2015-02-14T12:09:53.598663149 2015-02-14T13:15:46.061414937
+        2015-02-14T21:28:54.896507420 2015-02-14T21:35:10.739691782
+        2015-02-15T08:45:05.197723943 2015-02-15T10:15:04.746913589
+        2015-02-15T12:19:40.072419628 2015-02-15T13:22:00.902359884
+        2015-02-16T07:17:17.553484405 2015-02-16T07:56:57.073661221
+        2015-02-16T10:03:52.029873909 2015-02-16T11:15:16.725918627
+        2015-02-16T13:23:20.259125844 2015-02-16T13:57:01.149428628
+        2015-02-16T23:34:59.712382392 2015-02-16T23:42:57.057548940
+        2015-02-17T08:52:16.617421094 2015-02-17T09:38:43.148391087
+        2015-02-17T11:32:37.898733958 2015-02-17T12:24:57.933715451
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2015-02-11T12:00:00.000000000 2015-02-17T12:31:12.898266924
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2015-02-11T21:00:01.930760829 2015-02-11T21:15:41.826617713
+                        2015-02-12T03:22:15.125591015 2015-02-12T04:37:04.158877239
+                        2015-02-12T06:50:32.806307225 2015-02-12T09:39:21.448378362
+                        2015-02-12T11:48:23.610512747 2015-02-12T13:14:45.180906096
+                        2015-02-13T04:37:03.768694771 2015-02-13T06:49:13.749615749
+                        2015-02-13T08:39:22.966543768 2015-02-13T11:03:10.088385396
+                        2015-02-14T04:46:08.042334953 2015-02-14T05:49:37.957072536
+                        2015-02-14T07:58:26.131120003 2015-02-14T10:02:18.726348923
+                        2015-02-14T11:54:23.771269345 2015-02-14T13:29:50.406511107
+                        2015-02-14T21:26:55.931507892 2015-02-14T21:40:10.967708120
+                        2015-02-15T05:36:23.295864662 2015-02-15T06:33:24.121271201
+                        2015-02-15T08:37:21.117910893 2015-02-15T10:19:39.772128172
+                        2015-02-15T12:07:58.855117179 2015-02-15T13:31:13.488960894
+                        2015-02-15T23:54:30.632318623 2015-02-16T00:05:30.954664380
+                        2015-02-16T07:01:07.042264823 2015-02-16T08:08:05.396652600
+                        2015-02-16T09:57:13.033909997 2015-02-16T11:19:26.668305720
+                        2015-02-16T13:09:31.943435193 2015-02-16T14:08:22.519324110
+                        2015-02-16T23:33:10.606418577 2015-02-16T23:47:23.661510860
+                        2015-02-17T08:44:15.687259527 2015-02-17T09:44:12.198543823
+                        2015-02-17T11:26:41.676917334 2015-02-17T12:28:56.426505552
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 ElevationAngle
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 MinMax
+                    Min		 0.1745329251994329
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2015-02-11T21:00:01.930760829 2015-02-11T21:15:41.826617713
+                        2015-02-12T03:22:15.125591015 2015-02-12T04:37:04.158877239
+                        2015-02-12T06:50:32.806307225 2015-02-12T09:39:21.448378362
+                        2015-02-12T11:48:23.610512747 2015-02-12T13:14:45.180906096
+                        2015-02-13T04:37:03.768694771 2015-02-13T06:49:13.749615749
+                        2015-02-13T08:39:22.966543768 2015-02-13T11:03:10.088385396
+                        2015-02-14T04:46:08.042334953 2015-02-14T05:49:37.957072536
+                        2015-02-14T07:58:26.131120003 2015-02-14T10:02:18.726348923
+                        2015-02-14T11:54:23.771269345 2015-02-14T13:29:50.406511107
+                        2015-02-14T21:26:55.931507892 2015-02-14T21:40:10.967708120
+                        2015-02-15T05:36:23.295864662 2015-02-15T06:33:24.121271201
+                        2015-02-15T08:37:21.117910893 2015-02-15T10:19:39.772128172
+                        2015-02-15T12:07:58.855117179 2015-02-15T13:31:13.488960894
+                        2015-02-15T23:54:30.632318623 2015-02-16T00:05:30.954664380
+                        2015-02-16T07:01:07.042264823 2015-02-16T08:08:05.396652600
+                        2015-02-16T09:57:13.033909997 2015-02-16T11:19:26.668305720
+                        2015-02-16T13:09:31.943435193 2015-02-16T14:08:22.519324110
+                        2015-02-16T23:33:10.606418577 2015-02-16T23:47:23.661510860
+                        2015-02-17T08:44:15.687259527 2015-02-17T09:44:12.198543823
+                        2015-02-17T11:26:41.676917334 2015-02-17T12:28:56.426505552
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2015-02-11T21:01:57.876620914 2015-02-11T21:09:46.324777567
+                        2015-02-12T07:00:03.361333912 2015-02-12T09:33:54.742438548
+                        2015-02-13T05:00:01.910432012 2015-02-13T06:38:49.850832634
+                        2015-02-13T08:48:15.756606467 2015-02-13T10:57:30.807413377
+                        2015-02-14T08:06:53.412508431 2015-02-14T09:57:28.344548044
+                        2015-02-14T12:09:53.598663149 2015-02-14T13:15:46.061414937
+                        2015-02-14T21:28:54.896507420 2015-02-14T21:35:10.739691782
+                        2015-02-15T08:45:05.197723943 2015-02-15T10:15:04.746913589
+                        2015-02-15T12:19:40.072419628 2015-02-15T13:22:00.902359884
+                        2015-02-16T07:17:17.553484405 2015-02-16T07:56:57.073661221
+                        2015-02-16T10:03:52.029873909 2015-02-16T11:15:16.725918627
+                        2015-02-16T13:23:20.259125844 2015-02-16T13:57:01.149428628
+                        2015-02-16T23:34:59.712382392 2015-02-16T23:42:57.057548940
+                        2015-02-17T08:52:16.617421094 2015-02-17T09:38:43.148391087
+                        2015-02-17T11:32:37.898733958 2015-02-17T12:24:57.933715451
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+    LineStyle		 0
+    ColorMode		 ObjectColors
+    Color		 65280
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+

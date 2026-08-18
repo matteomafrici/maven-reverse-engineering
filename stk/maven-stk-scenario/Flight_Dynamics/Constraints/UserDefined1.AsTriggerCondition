@@ -1,0 +1,178 @@
+<?xml version = "1.0" standalone = "yes"?>
+<Component>
+    <Type>AsTriggerCondition</Type>
+    <SpecificType>AsTriggerCondition</SpecificType>
+    <Data>
+        <VAR name = "UserDefined1">
+            <SCOPE Class = "AsTriggerCondition">
+                <VAR name = "Version">
+                    <STRING>&quot;1.0.0 a&quot;</STRING>
+                </VAR>
+                <VAR name = "AppVersion">
+                    <INT>1310</INT>
+                </VAR>
+                <VAR name = "Description">
+                    <STRING>&quot;User defined trigger condition&quot;</STRING>
+                </VAR>
+                <VAR name = "Type">
+                    <STRING>&quot;AsTriggerCondition&quot;</STRING>
+                </VAR>
+                <VAR name = "UserComment">
+                    <STRING>&quot;User defined trigger condition&quot;</STRING>
+                </VAR>
+                <VAR name = "ReadOnly">
+                    <BOOL>false</BOOL>
+                </VAR>
+                <VAR name = "Clonable">
+                    <BOOL>true</BOOL>
+                </VAR>
+                <VAR name = "Category">
+                    <STRING>&quot;@Top&quot;</STRING>
+                </VAR>
+                <VAR name = "IdentifierInformation">
+                    <SCOPE>
+                        <VAR name = "Identifier">
+                            <STRING>&quot;{420BACEA-D8CF-4BEC-BDCF-12DCCEB0D72B}&quot;</STRING>
+                        </VAR>
+                        <VAR name = "Version">
+                            <STRING>&quot;1&quot;</STRING>
+                        </VAR>
+                        <VAR name = "SdfInformation">
+                            <SCOPE>
+                                <VAR name = "Version">
+                                    <STRING>&quot;0.0&quot;</STRING>
+                                </VAR>
+                                <VAR name = "Url">
+                                    <STRING>&quot;&quot;</STRING>
+                                </VAR>
+                            </SCOPE>
+                        </VAR>
+                        <VAR name = "SourceIdentifierInformation">
+                            <SCOPE>
+                                <VAR name = "Identifier">
+                                    <STRING>&quot;{B2E0D975-A64D-4190-9F9A-7F3928B39D43}&quot;</STRING>
+                                </VAR>
+                                <VAR name = "Version">
+                                    <STRING>&quot;1&quot;</STRING>
+                                </VAR>
+                                <VAR name = "SdfInformation">
+                                    <SCOPE>
+                                        <VAR name = "Version">
+                                            <STRING>&quot;0.0&quot;</STRING>
+                                        </VAR>
+                                        <VAR name = "Url">
+                                            <STRING>&quot;&quot;</STRING>
+                                        </VAR>
+                                    </SCOPE>
+                                </VAR>
+                            </SCOPE>
+                        </VAR>
+                    </SCOPE>
+                </VAR>
+                <VAR name = "ShooterControls">
+                    <LIST />
+                </VAR>
+                <VAR name = "Criteria">
+                    <STRING>&quot;Equals&quot;</STRING>
+                </VAR>
+                <VAR name = "CalcObject">
+                    <VAR name = "Altitude_Of_Periapsis">
+                        <SCOPE Class = "AsStateCalc">
+                            <VAR name = "Version">
+                                <STRING>&quot;1.0.0 a&quot;</STRING>
+                            </VAR>
+                            <VAR name = "AppVersion">
+                                <INT>1310</INT>
+                            </VAR>
+                            <VAR name = "Description">
+                                <STRING>&quot;Altitude at periapsis of the conic orbit&quot;</STRING>
+                            </VAR>
+                            <VAR name = "Type">
+                                <STRING>&quot;AsStateCalcAltitudeOfPeriapsis&quot;</STRING>
+                            </VAR>
+                            <VAR name = "UserComment">
+                                <STRING>&quot;Altitude at periapsis of the conic orbit&quot;</STRING>
+                            </VAR>
+                            <VAR name = "ReadOnly">
+                                <BOOL>false</BOOL>
+                            </VAR>
+                            <VAR name = "Clonable">
+                                <BOOL>true</BOOL>
+                            </VAR>
+                            <VAR name = "Category">
+                                <STRING>&quot;Keplerian Elems&quot;</STRING>
+                            </VAR>
+                            <VAR name = "IdentifierInformation">
+                                <SCOPE>
+                                    <VAR name = "Identifier">
+                                        <STRING>&quot;{DABA73BC-FEBD-465D-AEF2-C7220ED96FEB}&quot;</STRING>
+                                    </VAR>
+                                    <VAR name = "Version">
+                                        <STRING>&quot;1&quot;</STRING>
+                                    </VAR>
+                                    <VAR name = "SdfInformation">
+                                        <SCOPE>
+                                            <VAR name = "Version">
+                                                <STRING>&quot;0.0&quot;</STRING>
+                                            </VAR>
+                                            <VAR name = "Url">
+                                                <STRING>&quot;&quot;</STRING>
+                                            </VAR>
+                                        </SCOPE>
+                                    </VAR>
+                                    <VAR name = "SourceIdentifierInformation">
+                                        <SCOPE>
+                                            <VAR name = "Identifier">
+                                                <STRING>&quot;{00000000-0000-0000-0000-000000000000}&quot;</STRING>
+                                            </VAR>
+                                            <VAR name = "Version">
+                                                <STRING>&quot;0&quot;</STRING>
+                                            </VAR>
+                                            <VAR name = "SdfInformation">
+                                                <SCOPE>
+                                                    <VAR name = "Version">
+                                                        <STRING>&quot;0.0&quot;</STRING>
+                                                    </VAR>
+                                                    <VAR name = "Url">
+                                                        <STRING>&quot;&quot;</STRING>
+                                                    </VAR>
+                                                </SCOPE>
+                                            </VAR>
+                                        </SCOPE>
+                                    </VAR>
+                                </SCOPE>
+                            </VAR>
+                            <VAR name = "ShooterControls">
+                                <LIST />
+                            </VAR>
+                            <VAR name = "CentralBody">
+                                <LINKTOOBJ>
+                                    <STRING>&quot;Mars&quot;</STRING>
+                                </LINKTOOBJ>
+                            </VAR>
+                            <VAR name = "ElementType">
+                                <STRING>&quot;Osculating&quot;</STRING>
+                            </VAR>
+                        </SCOPE>
+                    </VAR>
+                </VAR>
+                <VAR name = "UseAbsoluteValue">
+                    <BOOL>false</BOOL>
+                </VAR>
+                <VAR name = "Value">
+                    <QUANTITY Dimension = "DistanceUnit" Unit = "m">
+                        <REAL>125000.0</REAL>
+                    </QUANTITY>
+                </VAR>
+                <VAR name = "Tolerance">
+                    <QUANTITY Dimension = "DistanceUnit" Unit = "m">
+                        <REAL>1000.0</REAL>
+                    </QUANTITY>
+                </VAR>
+                <VAR name = "Dimension">
+                    <STRING>&quot;DistanceUnit&quot;</STRING>
+                </VAR>
+            </SCOPE>
+        </VAR>
+    </Data>
+</Component>

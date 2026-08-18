@@ -1,0 +1,257 @@
+stk.v.13.0
+WrittenBy    STK_v13.1.0
+
+BEGIN Sensor
+
+    Name		 LGA_Sensor3
+
+    BEGIN Pattern
+
+        BEGIN SimpleCone
+
+            ConeAngle		  7.8000000000000000e+01
+            AngularPatternResolution		  4.0000000000000000e+00
+
+        END SimpleCone
+
+        DetailedTerrainHorizon		 Yes
+
+
+    END Pattern
+
+    BEGIN Pointing
+
+        BEGIN Targeted
+
+            TargetMode		 Tracking
+            AboutBoresightOption		 323            TrackingMode		 Transmit
+            AberrationType		 Annual
+            TimeDelayConvergence		 5e-05
+            MaxTimeStep		 360
+            MinTimeStep		 0.01
+            TimeConvergence		 0.005
+            AbsValueConvergence		 1e-14
+            RelValueConvergence		 1e-08
+            DetectEventsUsingSamplesOnly		 No
+
+            BEGIN AssignedTargets
+
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid
+
+            END AssignedTargets
+
+            BEGIN TargetInviews
+
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-11T12:00:00.000000000 2015-02-11T20:00:01.461044942
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-11T15:50:33.461530228 2015-02-12T03:32:16.683274933
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-11T21:48:51.985249829 2015-02-12T10:05:29.341423088
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-12T08:20:15.460465258 2015-02-12T19:59:56.874529474
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-12T15:48:30.603355129 2015-02-13T03:32:01.227917381
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-12T21:48:37.409136370 2015-02-13T10:03:26.417707856
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-13T08:18:01.176207761 2015-02-13T19:59:52.348500034
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-13T15:46:26.601342367 2015-02-14T03:31:45.992949837
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-13T21:48:22.159247016 2015-02-14T10:01:22.475739476
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-14T08:15:46.992115647 2015-02-14T19:59:48.277882645
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-14T15:44:23.420163933 2015-02-15T03:31:31.049488081
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-14T21:48:06.296847422 2015-02-15T09:59:18.912413739
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-15T08:13:32.306617911 2015-02-15T19:59:43.442694493
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-15T15:42:19.569944606 2015-02-16T03:31:15.146798512
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-15T21:47:50.982623130 2015-02-16T09:57:15.244617407
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-16T08:11:17.514032213 2015-02-16T19:59:38.483621617
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-16T15:40:15.542294105 2015-02-17T03:30:59.647947495
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-16T21:47:35.255984104 2015-02-17T09:55:10.883768665
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-17T08:09:02.867291948 2015-02-17T19:59:33.318250137
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-17T15:38:11.047095287 2015-02-18T03:30:43.654370084
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-17T21:47:19.155094806 2015-02-18T09:53:06.828198645
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-18T08:06:47.981204377 2015-02-18T19:59:27.994321712
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-18T15:36:06.888324674 2015-02-19T03:30:27.603958434
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-18T21:47:03.080727134 2015-02-19T09:51:02.567890153
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-19T08:04:33.164018837 2015-02-19T19:59:22.500030412
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-19T15:34:02.669914107 2015-02-20T03:30:11.422620058
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-19T21:46:46.914576252 2015-02-20T09:48:58.242781730
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-20T08:02:18.339029995 2015-02-20T19:59:16.675969049
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-20T15:31:58.565336859 2015-02-21T03:29:54.977292334
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-20T21:46:30.603105854 2015-02-21T09:46:54.186784468
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-21T08:00:03.289039374 2015-02-21T19:59:10.573377620
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-21T15:29:54.333601335 2015-02-22T03:29:38.085210379
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-21T21:46:13.921785727 2015-02-22T09:44:49.895783832
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-22T07:57:47.837061222 2015-02-22T19:59:04.764161956
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-22T15:27:49.618688581 2015-02-23T01:43:55.444650754
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-22T21:45:56.921939276 2015-02-23T01:43:54.792092501
+                Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone 2015-02-23T01:49:04.130232598 2015-02-23T03:29:21.489532786
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-23T01:49:04.731835116 2015-02-23T04:15:50.900199730
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-23T04:23:41.814915000 2015-02-23T06:48:02.818904560
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-23T06:57:50.373101528 2015-02-23T09:20:19.015683069
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-23T07:55:32.870043176 2015-02-23T09:20:18.925537517
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-23T09:31:41.944539402 2015-02-23T11:52:35.533202064
+                Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra 2015-02-23T09:31:42.047354674 2015-02-23T09:42:45.043811324
+                Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid 2015-02-23T12:05:20.792281763 2015-02-23T14:24:50.663071994
+
+            END TargetInviews
+
+            SaveTargetAccesses		 Yes
+
+            UseTargetSchedule		 No
+
+            BEGIN Stable
+                Use		 No
+                Mode		 NorthStable
+            END Stable
+            AdjustPointingToTargetsDuringAccessToTargets		 No
+            UseTrackControl		 No
+
+        END Targeted
+
+    END Pointing
+
+    BEGIN Optics
+
+        FocalLength		  1.0000000000000000e+02
+        DetectorPitch		  1.0000000000000000e-03
+        IQConstant		  0.0000000000000000e+00
+        GsdCoefficient		  0.0000000000000000e+00
+
+    END Optics
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN AccessConstraints
+            FieldOfView IncludeIntervals
+            LineOfSight IncludeIntervals
+
+            UsePreferredMaxStep No
+            PreferredMaxStep 360
+        END AccessConstraints
+
+        BEGIN ObjectCoverage
+        END ObjectCoverage
+
+        BEGIN Desc
+        END Desc
+
+        BEGIN Refraction
+            RefractionModel		 Effective Radius Method
+
+            UseRefractionInAccess		 No
+
+            BEGIN ModelData
+                RefractionCeiling		  5.0000000000000000e+03
+                MaxTargetAltitude		  1.0000000000000000e+04
+                EffectiveRadius		  1.3333333333333299e+00
+
+                UseExtrapolation		 Yes
+
+
+            END ModelData
+        END Refraction
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN ChainAnalysisOptions
+            ConstantDelay		  0.0000000000000000e+00
+            ConstantDataRate		  1.0000000000000000e+06
+        END ChainAnalysisOptions
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                Inherit		 No
+                Show		 No
+                LineStyle		 0
+                LineWidth		 1
+                PatternColor		 #a0ffff
+
+            END Attributes
+
+            BEGIN Display
+
+                NumberOfPatterns		 1
+                PersistenceDuration		  0.0000000000000000e+00
+                PersistenceIgnoreDefChg		 No
+                UpdatesDefnOften		 No
+                MinDisplayAltitude		  0.0000000000000000e+00
+                MaxDisplayAltitude		  1.0000000000000000e+07
+                AltitudeIntersectSense		 Either
+                ShowBothAltCrossings		 No
+                IntersectType		 CentralBody
+                ShowGround		 Yes
+                UseProjectionRadii		 No
+                ExcludeHorizonArcs		 No
+                ForwardPersist		 No
+                FillPersist		 No
+                DsplyTmHidesPersist		 No
+                SpaceLength		  5.0000000000000000e+07
+                TgtExtLength		  0.0000000000000000e+00
+                FOVHalfAngle		 No
+                HalfAngle		  0.0000000000000000e+00
+                ProjDisplay		 Sphere
+                DisplayType		 ConstantRadius
+                DisplayFOVWithConstraints		 No
+                ShowBoresight		 No
+                BoresightMarker		 4
+                BoresightColor		 #ffffff
+                ShowFill		 No
+                FillTranslucency		 0.5
+                ShowOn2DMap		 Yes
+
+            END Display
+
+            BEGIN Swath
+
+                MaxStep		  6.0000000000000000e+01
+                MinStep		  1.0000000000000001e-01
+                CloseSwath		 Yes
+                Tolerance		  4.0000000000000000e+00
+                MatchTolerance		  9.0000000000000000e+01
+                ShowSwath		 No
+                ComputationalMethod		 Numerical
+                Color		 #00ff00
+                LineStyle		 0
+                LineWidth		 1
+                SwathIntervalPtr		
+                BEGIN EVENTINTERVAL
+                    BEGIN Interval
+                        Start		 1 Dec 2014 12:00:00.000000000
+                        Stop		 8 Dec 2014 12:00:00.000000000
+                    END Interval
+                    IntervalState		 Explicit
+                END EVENTINTERVAL
+
+
+            END Swath
+
+            BEGIN DisplayTimes
+                DisplayType		 AlwaysOn
+            END DisplayTimes
+        END Graphics
+
+        BEGIN Swath
+        END Swath
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+    BEGIN SubObjects
+
+        Class Transmitter
+
+            TX_LGA_Xband3		
+
+        END Class
+
+    END SubObjects
+
+END Sensor
+

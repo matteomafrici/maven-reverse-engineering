@@ -1,0 +1,41 @@
+{
+  "AGI_stk_metadata": {
+    "solarPanelGroups": [
+      {
+        "name": "SolarPanels",
+        "modelNodes": [
+          "shiny_panel"
+        ],
+        "efficiency": 22
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "HighGainAntenna",
+      "nodeNames": [
+        "dish_frame",
+        "foil_silver"
+      ],
+      "type": "Antenna",
+      "description": "High-gain antenna reflector and support structure"
+    },
+    {
+      "name": "SpacecraftBus",
+      "nodeNames": [
+        "BUS"
+      ],
+      "type": "Bus",
+      "description": "Main spacecraft body and parent node"
+    },
+    {
+      "name": "PayloadAndStructures",
+      "nodeNames": [
+        "parts",
+        "tex_01"
+      ],
+      "type": "Other",
+      "description": "Payload appendages, external structures, coverings, and miscellaneous hardware"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+[Analytical Graphics, Inc]
+WorkbookVersion=9.0
+Title=MAVEN_AOCS_Validation
+Description=
+ApplicationVersion=2026 R1 (13.1.0) 
+Scenario=YES
+ActiveMDIState=TRUE
+[WorkState_v1_2]
+ptn_Child1=Frames
+[WorkState_v1_2.Frames]
+ptn_Child1=MainFrame
+ptn_Child2=ChildFrames
+[WorkState_v1_2.Frames.MainFrame]
+WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAAADIPPPPAADIPPPPPPPPPPPPPPPPPPPPFPPPPPPPAAAAAAAAJKIAAAAAALDAAAAA
+Title=MAVEN_AOCS_Validation - STK 2026 R1 - [3D Graphics 1 - Mars]
+[WorkState_v1_2.Frames.ChildFrames]
+ptn_Child1=Document-0
+ptn_Child2=Document-1
+ptn_Child3=Document-2
+ptn_Child4=Document-3
+ptn_Child5=Document-4
+[WorkState_v1_2.Frames.ChildFrames.Document-0]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUi3DGfxView13.AgUiPi3DGfxView.1
+DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPDPPPPPPPBNPPPPPPAAAAAAAAAAAAAAAADEEAAAAAAPDAAAAA
+IsActiveChildFrame=True
+IsFrameVisible=True
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0.AGI Custom Node Data]
+MapID=1
+SceneType=1
+[WorkState_v1_2.Frames.ChildFrames.Document-1]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUi3DGfxView13.AgUiPi3DGfxView.1
+DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAALDGAAAAAAJBAAAAADPPPPPPPBNPPPPPPAAAAAAAAAAAAAAAAODCAAAAALHDAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0.AGI Custom Node Data]
+MapID=2
+SceneType=1
+[WorkState_v1_2.Frames.ChildFrames.Document-2]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUiAttrBrowser13.AgUiPiAttrBrowser.1
+DocumentString=AgUiAttrBrowser.AgUiPiAttrBrowser.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAIGBAAAAAMKBAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ProfUISBarID=63000
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0.AGI Custom Node Data]
+objectExpandedState0=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN2/Sensor/HGA_Sensor3:TRUE
+objectExpandedState1=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN1/Sensor/UHF_Sensor1/Receiver/RX_UHF_Relay1:TRUE
+objectExpandedState10=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/DSS_43_Canberra/Receiver/RX_HGA_Canberra:TRUE
+objectExpandedState11=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/DSS_43_Canberra/Receiver/RX_LGA_Canberra:TRUE
+objectExpandedState12=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/DSS_63_Madrid:TRUE
+objectExpandedState13=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN2/Sensor/UHF_Sensor3:TRUE
+objectExpandedState14=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/DSS_63_Madrid/Receiver/RX_HGA_Madrid:TRUE
+objectExpandedState15=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/DSS_63_Madrid/Receiver/RX_LGA_Madrid:TRUE
+objectExpandedState16=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/MSL_Curiosity_GaleCrater:TRUE
+objectExpandedState17=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/MSL_Curiosity_GaleCrater/Receiver/Receiver_UHF_Curiosity:TRUE
+objectExpandedState18=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN1/Sensor/LGA_Sensor1:TRUE
+objectExpandedState19=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/MSL_Curiosity_GaleCrater/Transmitter/TX_UHF_Curiosity:TRUE
+objectExpandedState2=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/DSS_43_Canberra:TRUE
+objectExpandedState20=Folder/Satellites:TRUE
+objectExpandedState21=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN:FALSE
+objectExpandedState22=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN1:FALSE
+objectExpandedState23=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN1/Sensor/HGA_Sensor1:TRUE
+objectExpandedState24=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN1/Sensor/HGA_Sensor1/Transmitter/TX_HGA_Xband1:TRUE
+objectExpandedState25=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN1/Sensor/UHF_Sensor1:TRUE
+objectExpandedState26=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN1/Sensor/LGA_Sensor1/Transmitter/TX_LGA_Xband1:TRUE
+objectExpandedState27=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN2:TRUE
+objectExpandedState28=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN2/Sensor/HGA_Sensor3/Transmitter/TX_HGA_Xband3:TRUE
+objectExpandedState29=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN2/Sensor/LGA_Sensor3:TRUE
+objectExpandedState3=/Application/STK/Scenario/MAVEN_AOCS_Validation:TRUE
+objectExpandedState30=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN2/Sensor/UHF_Sensor3/Receiver/RX_UHF_Relay3:TRUE
+objectExpandedState4=Folder/EarthFacilities:TRUE
+objectExpandedState5=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/DSS_14_Goldstone/Receiver/RX_HGA_Goldstone:TRUE
+objectExpandedState6=/Application/STK/Scenario/MAVEN_AOCS_Validation/Satellite/MAVEN2/Sensor/LGA_Sensor3/Transmitter/TX_LGA_Xband3:TRUE
+objectExpandedState7=Folder/MarsSurface:TRUE
+objectExpandedState8=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/DSS_14_Goldstone:TRUE
+objectExpandedState9=/Application/STK/Scenario/MAVEN_AOCS_Validation/Facility/DSS_14_Goldstone/Receiver/RX_LGA_Goldstone:TRUE
+[WorkState_v1_2.Frames.ChildFrames.Document-3]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-3.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUi3DGxToolPlugins13.AgUi3dGlobeManager.1
+DocumentString=AgUi3DGxToolPlugins.AgUi3dGlobeManager.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAIGBAAAAABLBAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ProfUISBarID=63001
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-3.ViewFrame-0.AGI Custom Node Data]
+ActiveSceneID=1
+[WorkState_v1_2.Frames.ChildFrames.Document-4]
+ptn_Child1=ViewFrame-0
+[WorkState_v1_2.Frames.ChildFrames.Document-4.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK_ODTK 13\bin\AgUiTimelineView13.AgUiPiTimelineView.1
+DocumentString=AgUiTimelineView.AgUiPiTimelineView.1
+DocTemplateIndex=0
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAAHNAAAAAJLAAAAAA
+IsActiveChildFrame=False
+IsFrameVisible=True
+ProfUISBarID=63002
+ptn_Child1=AGI Custom Node Data
+[WorkState_v1_2.Frames.ChildFrames.Document-4.ViewFrame-0.AGI Custom Node Data]
+ComponentWellWidth=266.000000000000
+CurrentContentView=Scenario Availability
+CurrentTimeView=Scenario Analysis Period
+FontSize=10.000000000000
+FullViewScaleHeight=28.000000000000
+LabelFontSize=11.000000000000
+RowHeight=20.000000000000
+ShowComponents=True
+ShowFullViewBar=True
+ShowFullViewRuler=True
+ShowGlobalScale=True
+ShowGlobalTimeline=True
+ShowIntervalLabels=True
+ShowStartTime=False
+ShowStopTime=False
+ShowToolbar=True
+ShowViewportRuler=True
+Theme=Default
+Title=Timeline 1
+ViewportScaleHeight=5.000000000000

@@ -1,0 +1,82 @@
+Astrogator Log File; DriverMCS: Mission_Control_Sequence
+-------------------------------------------------------------
+
+
+----------------------------------------------
+Begin targeter profile DD1_WalkIn_TS.Differential_Corrector
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                           Current Value           Last Update       Total Correction
+DD1_DV1 : ImpulsiveMnvr.Pointing.Cartesian.X -4.178599406745 m/sec  0.000000000000 m/sec  -2.178599406745 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Propagate : Altitude_Of_Periapsis  125.000000000000 km
+
+
+
+---Running one step of the differential corrector...
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                           Current Value           Last Update       Total Correction
+DD1_DV1 : ImpulsiveMnvr.Pointing.Cartesian.X -4.178599406745 m/sec  0.000000000000 m/sec  -2.178599406745 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                  Current Value              Desired         Difference          Tolerance
+Propagate : Altitude_Of_Periapsis  125.003148962855 km  125.000000000000 km  0.003148962855 km  0.100000000000 km
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                           Current Value           Last Update       Total Correction
+DD1_DV1 : ImpulsiveMnvr.Pointing.Cartesian.X -4.178599406745 m/sec  0.000000000000 m/sec  -2.178599406745 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                  Current Value              Desired         Difference          Tolerance
+Propagate : Altitude_Of_Periapsis  125.003148962855 km  125.000000000000 km  0.003148962855 km  0.100000000000 km
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile DD1_WalkIn_TS.Differential_Corrector
+----------------------------------------------
+Begin targeter profile DD1_WalkOut_TS.Differential_Corrector
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                           Current Value           Last Update       Total Correction
+DD1_DV2 : ImpulsiveMnvr.Pointing.Cartesian.X  2.000000000000 m/sec  0.000000000000 m/sec   0.000000000000 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                                  Current Value              Desired         Difference          Tolerance
+Propagate : Altitude_Of_Periapsis  150.015845843569 km  150.000000000000 km  0.015845843569 km  0.100000000000 km
+
+
+
+***Error running sequence or in evaluating results.

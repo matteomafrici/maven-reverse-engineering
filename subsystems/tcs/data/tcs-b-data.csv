@@ -1,0 +1,8 @@
+Channel,N_channels,N_samp_orbit,bits_per_sample,V_kbit_orbit
+Unit temperature sensors (1 per unit),7,276,16,30.912
+Bus panel temperatures (4 external faces),4,276,16,17.664
+SA boomlet MAG sensor temperatures,2,276,16,8.832
+Heater ON/OFF status flags (active zones),7,276,16,30.912
+Subtotal,20,276,16,88.32
+Memory margin (50%),20,276,16,44.16
+Total TCS data,20,276,16,132.48

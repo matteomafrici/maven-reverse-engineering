@@ -1,0 +1,7 @@
+Metric,Value
+Mean_abs_error_W,-102.946418592134
+Std_abs_error_W,54.1044609293844
+Mean_rel_error_pct,-2.94143542942645
+Std_rel_error_pct,24.7822050660796
+R_squared,0.997714649860764
+N_sunlit_samples,13184

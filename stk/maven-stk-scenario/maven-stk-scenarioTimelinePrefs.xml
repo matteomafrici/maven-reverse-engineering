@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "13.1.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability" />
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/MAVEN_AOCS_Validation" GlobalStartOffset = "0.000000" GlobalStartTime = "11 Feb 2015 12:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "23 Feb 2015 12:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

@@ -1,0 +1,168 @@
+stk.v.9.0
+
+BEGIN ReportStyle
+Name		Az El Polar
+
+BEGIN ClassId
+	Class		Access
+END ClassId
+
+BEGIN Header
+	StyleType		5
+	Date		Yes
+	Name		Yes
+	DescShort		No
+	DescLong		No
+	YLog10		No
+	Y2Log10		No
+	Ticks		No
+	GridLines		No
+	NumAnnotations		3
+	AnnotationRotation		1
+	NumTick		12
+	NumGridX		12
+	NumGridY		12
+	BackgroundColor		7
+	ViewableDuration		3600.000000
+
+BEGIN PostProcessor
+	Destination	0
+	Use	0
+	Destination	1
+	Use	0
+	Destination	2
+	Use	0
+	Destination	3
+	Use	0
+END PostProcessor
+	NumSections		2
+END Header
+
+BEGIN Section
+	Name		Section 1
+	ClassName		Access
+	NameInTitle		No
+	ExpandMethod		0
+	PropMask		2
+	ShowIntervals		No
+	NumIntervals		0
+	NumLines		2
+
+BEGIN Line
+	Name		Line 1
+	NumElements		1
+
+BEGIN Element
+	Name		AER Data-Elevation
+	IsIndepVar		Yes
+	IndepVarName		Time
+	Title		Elevation
+	NameInTitle		Yes
+	Service		InviewAER
+	Element		Elevation
+	SumAllowedMask		7
+	SummaryOnly		No
+	DataType		0
+	UnitType		3
+	LineStyle		0
+	LineWidth		0
+	LineColor		0
+	PointStyle		0
+	PointSize		0
+	PointColor		0
+	FillPattern		0
+	FillColor		0
+	UseScenUnits		No
+BEGIN Units
+		DistanceUnit		Meters
+		TimeUnit		Seconds
+		DateFormat		EpochSeconds
+		AngleUnit		Degrees
+		MassUnit		Kilograms
+		PowerUnit		dBW
+		FrequencyUnit		Hertz
+		SmallDistanceUnit		Meters
+		LatitudeUnit		Radians
+		LongitudeUnit		Radians
+		DurationUnit		Seconds
+		Temperature		Kelvin
+		SmallTimeUnit		Seconds
+		RatioUnit		Decibel
+		RcsUnit		Decibel
+		DopplerVelocityUnit		MetersperSecond
+		SARTimeResProdUnit		Meter-Second
+		PowerDensityUnit		Decibels
+END Units
+END Element
+END Line
+
+BEGIN Line
+	Name		Line 2
+	NumElements		1
+
+BEGIN Element
+	Name		AER Data-Azimuth
+	IsIndepVar		No
+	IndepVarName		Time
+	Title		Az vs El
+	NameInTitle		Yes
+	Service		InviewAER
+	Element		Azimuth
+	SumAllowedMask		0
+	SummaryOnly		No
+	DataType		0
+	UnitType		3
+	LineStyle		2
+	LineWidth		2
+	LineColor		5
+	PointStyle		1
+	PointSize		4
+	PointColor		6
+	FillPattern		0
+	FillColor		0
+	UseScenUnits		No
+BEGIN Units
+		DistanceUnit		Meters
+		TimeUnit		Seconds
+		DateFormat		EpochSeconds
+		AngleUnit		Degrees
+		MassUnit		Kilograms
+		PowerUnit		dBW
+		FrequencyUnit		Hertz
+		SmallDistanceUnit		Meters
+		LatitudeUnit		Radians
+		LongitudeUnit		Radians
+		DurationUnit		Seconds
+		Temperature		Kelvin
+		SmallTimeUnit		Seconds
+		RatioUnit		Decibel
+		RcsUnit		Decibel
+		DopplerVelocityUnit		MetersperSecond
+		SARTimeResProdUnit		Meter-Second
+		PowerDensityUnit		Decibels
+END Units
+END Element
+END Line
+END Section
+
+BEGIN Section
+	Name		Section 2
+	NameInTitle		No
+	ExpandMethod		0
+	PropMask		0
+	ShowIntervals		No
+	NumIntervals		0
+	NumLines		2
+
+BEGIN Line
+	Name		Line 1
+	NumElements		0
+END Line
+
+BEGIN Line
+	Name		Line 2
+	NumElements		0
+END Line
+END Section
+END ReportStyle
+
