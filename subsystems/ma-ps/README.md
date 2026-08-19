@@ -51,6 +51,8 @@ rationale, is in `maven-trajectory-analysis.xlsx`.
 | Propulsion system mass | 80.06 kg |
 | Power peak / average | 502.6 W / 129.3 W |
 
+![Propulsion system fluidic-line architecture](figures/propulsion-fluidic-line.png)
+
 ## Mars science-phase simulation (STK / Astrogator)
 
 The representative science phase is built in STK Astrogator as a Mission

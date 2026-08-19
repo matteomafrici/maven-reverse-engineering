@@ -18,8 +18,8 @@ these READMEs traces back to it.
 
 ## Contributors
 
-- Matteo Mafrici
-- Mario Guida
+- [Matteo Mafrici](https://github.com/matteomafrici)
+- [Mario Guida](https://github.com/marioguida27)
 - Martina Lucia Magarelli
 - Camilla Martino
 - Jules Jean Laurence Simon
