@@ -16,6 +16,15 @@ The single authoritative source is
 every subsystem folder mirrors one section of the report, and every number in
 these READMEs traces back to it.
 
+## Contributors
+
+- Matteo Mafrici
+- Mario Guida
+- Martina Lucia Magarelli
+- Camilla Martino
+- Jules Jean Laurence Simon
+- Andrea Garghetti
+
 ## Mission overview
 
 The mission goal is to determine how gas particles escape from the top of the
@@ -181,12 +190,3 @@ The reverse-engineering work in this repository (code, data, text, figures)
 is released under the [MIT License](LICENSE). NASA material used in the
 project — mission logo, images and public press-kit data — is in the public
 domain (US government work).
-
-## Contributors
-
-- Matteo Mafrici
-- Mario Guida
-- Martina Lucia Magarelli
-- Camilla Martino
-- Jules Jean Laurence Simon
-- Andrea Garghetti
